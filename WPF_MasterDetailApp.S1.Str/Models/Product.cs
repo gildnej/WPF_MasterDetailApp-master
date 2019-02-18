@@ -16,14 +16,14 @@ namespace WPF_MasterDetailApp.Models
 
         #region FIELDS
 
-        private int _id;
-        private string _GameName;
-        private string _GameGenera;
-        private VideoGame game;
-        private string _imageFileName;
-        private string description;
-        private DateTime _releaseDate;
-        private string _developer;
+        public int _id;
+        public string _GameName;
+        public string _GameGenera;
+        public VideoGame game;
+        public string _imageFileName;
+        public string description;
+        public DateTime _releaseDate;
+        public string _developer;
 
         #endregion
 

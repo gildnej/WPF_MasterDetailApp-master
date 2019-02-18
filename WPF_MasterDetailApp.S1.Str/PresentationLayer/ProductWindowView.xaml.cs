@@ -31,7 +31,7 @@ namespace WPF_MasterDetailApp
 
         private void Button_Quit_Click(object sender, RoutedEventArgs e)
         {
-            _productWindowPresenter.QuitApplication();
+            productWindowPresenter.QuitApplication();
         }
         
         #endregion
@@ -40,8 +40,8 @@ namespace WPF_MasterDetailApp
 
         public ProductWindowView(ProductWindowPresenter productWindowPresenter)
         {
-            _productWindowPresenter = productWindowPresenter;
-            DataContext = _productWindowPresenter;
+            productWindowPresenter = productWindowPresenter;
+            DataContext = productWindowPresenter;
 
             InitializeComponent();
         }

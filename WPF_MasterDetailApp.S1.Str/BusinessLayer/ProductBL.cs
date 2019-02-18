@@ -53,10 +53,11 @@ namespace WPF_MasterDetailApp.BusinessLayer
     private Company GetCompanyData()
     {
             return new Company()
-        { Name = "Jake's Game Collection?";
-         Address = "1234 Yeet drive";
-         City = "Traverse City";
-        }
+            {
+                Name = "Jake's Game Collection?",
+                Address = "1234 Yeet drive",
+                City = "Traverse City",
+            };
 
            
 
@@ -66,19 +67,20 @@ namespace WPF_MasterDetailApp.BusinessLayer
 
      private Product GetProductData()
     {
+            DateTime _releaseDate = new DateTime(2017, 1, 26);
         return new Product()
         {
-        Id = 1,
-        GameName = "Tales of Berseria";
-        GameGenera = "rpg";
-        game = Product.VideoGame.rpg;
-        developer = "Bandai Namco Studios Inc";
-        releaseDate = DateTime  "Jan 26,2017";
-        imageFileName = "Tales_of_Bersia_cover.jpg";
-        Description = "In Tales of Berseria, players embark on a journey of self-discovery as they assume the role of Velvet, " +
+            _id = 1,
+            _GameName = "Tales of Berseria",
+            _GameGenera = "rpg",
+            game = Product.VideoGame.rpg,
+            _developer = "Bandai Namco Studios Inc",
+            _releaseDate = _releaseDate,
+            _imageFileName = "Tales_of_Bersia_cover.jpg",
+            description = "In Tales of Berseria, players embark on a journey of self-discovery as they assume the role of Velvet, " +
        "a young woman whose once kind demeanor has been replaced and overcome with a festering anger and hatred after a traumatic experience three years prior to the events within Tales of Berseria. " +
-       "Velvet will join a crew of pirates as they sail across the sea and visit the many islands that make up the sacred kingdom of Midgand in an all-new adventure";
-        }
+       "Velvet will join a crew of pirates as they sail across the sea and visit the many islands that make up the sacred kingdom of Midgand in an all-new adventure"
+        };
 
 
 

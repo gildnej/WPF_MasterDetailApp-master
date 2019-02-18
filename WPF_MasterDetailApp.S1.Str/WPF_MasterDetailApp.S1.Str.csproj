@@ -98,9 +98,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\fred_flintstone.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="PresentationLayer\ProductWindowView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
