@@ -40,7 +40,7 @@ namespace WPF_MasterDetailApp
 
         public ProductWindowView(ProductWindowPresenter productWindowPresenter)
         {
-            productWindowPresenter = productWindowPresenter;
+            ProductWindowPresenter _productWindowPresenter = productWindowPresenter;
             DataContext = productWindowPresenter;
 
             InitializeComponent();

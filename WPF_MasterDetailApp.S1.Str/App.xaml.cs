@@ -14,9 +14,10 @@ namespace WPF_MasterDetailApp
     /// </summary>
     public partial class App : Application
     {
-
+        private void Application_Startup(object sender, StartupEventArgs e)
+        {
+            ProductBL productViewerBL = new ProductBL();
+        }
     }
-}   private void Application_Startup(object sender, StartupEventArgs e)
-{
-    ProductBL productViewerBL = new ProductBL();
 }
+
